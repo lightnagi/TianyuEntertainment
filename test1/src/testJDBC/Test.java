@@ -5,7 +5,7 @@ import java.sql.*;
 public class Test {
 	public static void main(String[] args){
 		try {
-			System.out.println("Hello world!");  // Added by JiaFuhceng, 9/2 10:00
+			System.out.println("Hello world!");  // Added by JiaFuhceng, 9/2 10:05
 			
 			Class.forName("com.mysql.jdbc.Driver");
 			Connection conn = DriverManager.getConnection( //改为对应的账号和密码
