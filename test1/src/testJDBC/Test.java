@@ -5,6 +5,8 @@ import java.sql.*;
 public class Test {
 	public static void main(String[] args){
 		try {
+			System.out.println("Hello world!");  // Added by JiaFuhceng, 9/2 9:33
+			
 			Class.forName("com.mysql.jdbc.Driver");
 			Connection conn = DriverManager.getConnection( //改为对应的账号和密码
 					"jdbc:mysql://localhost:3306/tianyu?characterEncoding=utf8", "root", "admin");
